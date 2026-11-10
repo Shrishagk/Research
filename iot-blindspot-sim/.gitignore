@@ -1,0 +1,28 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments and dependency installs
+.venv/
+venv/
+env/
+.deps/
+
+# Generated simulation results and plots
+results/*
+!results/.gitkeep
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
